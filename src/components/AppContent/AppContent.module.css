@@ -1,0 +1,43 @@
+.mainContainer {
+    margin: 0 auto;
+    font-family: sans-serif;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.mainHeader {
+    text-align: center;
+    padding: 1.5rem 1.5rem 1rem 1.5rem;
+    color: white;
+    font-weight: 100;
+}
+
+.header {
+    background-color: var(--blue);
+    position: relative;
+}
+
+.logout {
+    position: absolute;
+    top: .5rem;
+    left: .5rem;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    font-size: .8rem;
+}
+
+.logout:hover {
+    background-color: transparent;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem .5rem;
+    font-size: 0.8rem;
+}

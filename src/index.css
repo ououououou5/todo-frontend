@@ -1,0 +1,78 @@
+:root {
+  --gray: rgb(145, 145, 145);
+  --gray2:rgb(233, 233, 233);
+  --gray3:rgb(248, 248, 248);
+
+  --blue: rgb(82, 177, 255);
+  --blue2: rgba(82, 177, 255, 0.5);
+  --blue3: rgb(0, 140, 255);
+
+  --box-shadow: 0 .8rem .8rem rgba(0, 0, 0, 0.3), 0 0.3rem .5rem rgba(0, 0, 0, 0.2);
+
+  --width: 480px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  display: block;
+  margin: auto;
+  background-color: var(--gray2);
+  background-color: white;
+  /*border: 2px solid pink;*/
+  border: 1px solid var(--gray);
+  border-radius: .5rem;
+  min-width: 2.5rem;
+  padding: .5rem;
+  cursor: pointer;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+button:hover {
+  background-color: var(--gray3);
+}
+
+button:active {
+  transform: scale(0.94);
+}
+
+button:focus {
+    outline: 2px solid white;
+}
+
+textarea {
+    flex: 1;
+    resize: vertical;
+    border-radius: 1rem;
+    border: 1px solid var(--gray);
+    padding: .8rem;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+textarea:focus {
+  outline: 2px solid white;
+}
+
+input {
+  flex: 1;
+  resize: vertical;
+  border-radius: 1rem;
+  border: 1px solid var(--gray);
+  padding: .8rem;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+input:focus {
+  outline: 2px solid white;
+}

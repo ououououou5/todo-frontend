@@ -1,0 +1,22 @@
+.beforePageVisible {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+.beforePageVisibleHeader {
+  padding: 1rem 1.5rem;
+  background-color: var(--blue);
+  border-radius: 10rem;
+  color: white;
+  opacity: 0;
+  top: -.8rem;
+  position: relative;
+  text-align: center;
+  transition: opacity 400ms ease, top 400ms ease;
+}
+
+.beforePageVisibleHeader2 {
+  top: 0;
+  opacity: 1;
+}

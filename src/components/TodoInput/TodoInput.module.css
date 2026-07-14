@@ -1,0 +1,13 @@
+.section {
+    background-color: var(--blue);
+    padding: .5rem 0 1rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07), 0 6px 8px rgba(0, 0, 0, 0.04);
+}
+
+.form {
+    display: flex;
+    gap: .5rem;
+    max-width: var(--width);
+    width: 100%;
+    margin: 0 auto;
+}

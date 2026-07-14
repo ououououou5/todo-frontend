@@ -1,0 +1,21 @@
+.todoList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 1.5rem;
+    padding: 1.5rem 0;
+    max-width: var(--width);
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    flex: 1;
+}
+
+.noTodos {
+    padding: 1rem 0;
+    max-width: var(--width);
+    width: 100%;
+    margin: 0 auto;
+    flex: 1;
+}
